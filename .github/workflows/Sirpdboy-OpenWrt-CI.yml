@@ -127,6 +127,8 @@ jobs:
         # 常用LuCI插件选择:
         cat >> .config <<EOF
         CONFIG_PACKAGE_autosamba=y
+        CONFIG_PACKAGE_luci-lib-docker=y
+        CONFIG_PACKAGE_luci-app-dockerman=y
         CONFIG_PACKAGE_luci-app-samba=y
         # CONFIG_PACKAGE_luci-app-accesscontrol is not set
         CONFIG_PACKAGE_luci-app-sfe=y
